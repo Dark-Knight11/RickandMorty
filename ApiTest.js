@@ -8,7 +8,7 @@ function fetchContent(page){
             card.classList = 'col-lg-3 col-md-6 col-sm-6 col-xs-12 my-3'
             content = `
                 <div class="col-lg-3 col-sm-12 col-xs-12 my-3">
-                <div class="card text-dark bg-white mx-2 my-3">
+                <div class="card text-dark bg-white mx-2 my-3" data-aos="fade-bottom">
                     <div class="card-body">
                         <img src="${element.image}" width="100%" height="100%">
                         <br>
